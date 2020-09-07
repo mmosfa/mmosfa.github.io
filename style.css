@@ -1,0 +1,405 @@
+/* Global */
+
+body {
+  background: #f4f4f4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#video {
+  border: none;
+}
+
+a:hover{
+  color:#3595A6;
+}
+
+.contact-info a:hover{
+  color:#3595A6;
+}
+
+.sueprmain-container {
+  margin-bottom: 0;
+}
+/* navbar */
+
+.navbar li {
+  font-size: 14px;
+  margin: auto;
+  display: inline;
+  padding-right: 8px;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.content-alojamento {
+  display: none;
+}
+
+.content-alojamento:hover {
+  display: block;
+}
+.emp {
+  color: #31424A;
+}
+/* Title */
+
+.title {
+  padding: 1px;
+  background: url("./images/IMG_1307.jpg") center center;
+  background-size: 1500px 100%;
+  height: 768px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+}
+.title h1{
+  margin-top: 1px;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.title p{
+  font-size: 20px;
+}
+
+/*boxes */
+
+.boxes {
+  border: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.boxes p {
+}
+.main-box {
+  box-sizing: border-box;
+  margin: auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.icons {
+  padding:30px;
+  font-size: 40px;
+}
+
+.image-box-class {
+  position: relative;
+  padding: 20px;
+ box-sizing: border-box;
+ float: left;
+  width:60%;
+}
+.text-box {
+  box-sizing: border-box;
+  width:40%;
+  float: left;
+  padding-right:  40px;
+}
+
+.emp-text p{
+  font-weight: bold;
+}
+
+#btn-left, #btn-right {
+  color: white;
+  position: absolute;
+  border:0;
+  top: 50%;
+  margin-top: 5px;
+  margin-left: 0px;
+  border-radius: 1px;
+  opacity: 0.5;
+  width:40px;
+  height: 50px;
+  background: black;
+}
+
+#btn-left:hover, #btn-right:hover {
+  opacity: 0.9;
+  background: white;
+}
+
+#btn-left:checked, #btn-right:checked {
+  border:0;
+}
+
+
+
+#btn-left {
+  left:2.4%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#btn-right {
+  right: 2.4%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* images */
+
+.image-wraper {
+  margin: auto;
+  padding: 2%;
+}
+
+
+.images-trans {
+  position:relative;
+  height: 450px;
+  width: 100%;
+}
+
+.image-box {
+  width: 320px;
+  opacity: 80%;
+  height: 450px;
+}
+
+
+
+.bcg {
+  width: 100%;
+  height: 100%;
+  opacity: 10%;
+}
+
+.img-aloj {
+  border-radius: 5px;
+  width:80%;
+  margin: auto;
+}
+
+
+#images {
+  width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+}
+
+/* form */
+
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background: #31424A;
+  padding-left: 30px;
+  min-height: 7vh;
+}
+footer p {
+  float: left;
+}
+
+.left {
+  text-align: right;
+}
+
+
+/* clear float */
+
+.clr-float {
+  clear: left;
+}
+
+/* queries */
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0;
+    margin:0;
+  }
+  .title {
+    padding: 0;
+    margin: 0;
+  }
+
+  footer {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .image-box-class {
+    float:none;
+    width:100%;
+    height: auto;
+  }
+
+  .text-box {
+    float:none;
+    width:100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .main-box {
+    border: 4px;
+    height:  100%;
+    margin: auto;
+  }
+
+  #btn-left {
+    left: 20px;
+
+  }
+  #btn-right {
+    right: 20px;
+  }
+
+
+  .navbar li {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+
+/* Contacots */
+
+.contact-info {
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-info h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+}
+
+.contact-info h4 {
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+}
+.contact-info p {
+  font-weight: bold;
+  color: white;
+ font-size: 15px;
+}
+.contact-info a {
+  font-weight: bold;
+  color:white;
+}
+
+
+/* pagina alojamento */
+
+.alojamento-container {
+  text-align: center;
+  margin-top: 0;
+  margin:auto;
+  padding:0 30px 30px 30px;
+
+}
+
+.alojamento-information {
+  font-weight: bold;
+  color: white;
+  background: #31424A;
+  border-radius: 10px;
+  margin: 1px;
+  float:left;
+  box-sizing: border-box;
+  width: 31.8%;
+  text-align: center;
+  height: 525px;
+  margin:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+}
+
+.text-alojamento h5{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.text-alojamento li{
+  font-size: 14px;
+  font-weight: normal;
+}
+.text-alojamento {
+  height: 220px;
+}
+
+.specs li {
+  text-align: left;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .alojamento-information {
+    width: 100%;
+  }
+  footer {
+    margin:0;
+  }
+  .slide-image img{
+    height: 300px;
+    width:auto;
+  }
+}
+
+
+/* calll buttin */
+
+#call-button {
+  border: 1px solid black
+  background: white;
+  position: fixed;
+  top:0;
+}
+
+#phone2 {
+  margin:auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+#call-link{
+  margin-top: -15px;
+  box-sizing: border-box;
+  position: fixed;
+  right: 0;
+  background: #f4f4f4;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+#obj {
+  font-size: 30px;
+  position: absolute;
+  height: 40px;
+  top:22%;
+  right:70%;
+  left: 30%;
+  bottom: 78%;
+}
+
+
+#contact-container {
+  background: url("./images/IMG_1328.jpg");
+  background-size: 100% 100%;
+  height: 800px;
+}
