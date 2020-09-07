@@ -262,6 +262,15 @@ footer p {
     margin: 0;
   }
 
+  .title h1 {
+    font-size: 30px;
+  }
+
+  .title p {
+    font-size: 16px;
+
+  }
+
   footer {
     margin: 0;
     padding: 0;
@@ -383,7 +392,7 @@ footer p {
   list-style-type: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
 
   .alojamento-information {
     width: 100%;
