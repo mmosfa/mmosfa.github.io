@@ -12,6 +12,11 @@ a {
   color: black;
 }
 
+hr {
+  opacity: 0.2;
+  color: black;
+}
+
 #video {
   border: none;
 }
@@ -111,6 +116,10 @@ a:hover{
   padding-right:  40px;
 }
 
+.text-box p{
+  padding-bottom: 15px;
+}
+
 .emp-text p{
   font-weight: bold;
 }
@@ -123,21 +132,27 @@ a:hover{
   margin-top: 5px;
   margin-left: 0px;
   border-radius: 1px;
-  opacity: 0.5;
-  width:40px;
-  height: 50px;
+  opacity: 0.7;
+  width:50px;
+  height: 60px;
   background: black;
 }
 
-#btn-left:hover, #btn-right:hover {
-  opacity: 0.9;
-  background: white;
+#arrow:hover{
+  opacity: 1;
+  color: orange;
 }
+
+#btn-left:focus, #btn-right:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
 
 #btn-left:checked, #btn-right:checked {
   border:0;
 }
-
 
 
 #btn-left {
@@ -151,6 +166,12 @@ a:hover{
   border-bottom-left-radius: 10px;
 }
 
+#arrow {
+  color: white;
+  opacity: 1;
+  font-size: 30px;
+
+}
 /* images */
 
 .image-wraper {
@@ -169,6 +190,16 @@ a:hover{
   width: 320px;
   opacity: 80%;
   height: 450px;
+}
+
+
+.icons img{
+  float: left;
+  width: auto;
+  padding-left: 80px;
+  padding-top: px;
+  height: 40px;
+
 }
 
 
@@ -253,6 +284,12 @@ footer p {
   .main-box {
     border: 4px;
     height:  100%;
+    margin: auto;
+  }
+
+  .icons img{
+    float:none;
+    padding-left: 10px;
     margin: auto;
   }
 
@@ -399,7 +436,7 @@ footer p {
 
 
 #contact-container {
-  background: url("./images/IMG_1328.jpg");
-  background-size: 100% 100%;
+  background: url("./images/IMG_1328.jpg") no-repeat;
+  background-size: 1500px 100%;
   height: 800px;
 }
